@@ -1,61 +1,102 @@
-
-
+ 
 ```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RDA Création</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      text-align: center;
-    }
-    header {
-      background: #ff8000;
-      color: white;
-      padding: 20px 0;
-    }
-    h1 {
-      margin: 0;
-    }
-    main {
-      padding: 20px;
-    }
-    footer {
-      background: #333;
-      color: white;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RDA Création - Design Graphique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0; padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #ff6600;
+            border-bottom: 2px solid #ff6600;
+            padding-bottom: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            background: #fff3e0;
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 5px;box-shadow: 1px 1px 5px rgba(255, 102, 0, 0.3);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            position: fixed;
+            bottom: 0; width: 100%;
+        }
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Bienvenue sur RDA Création</h1>
-    <p>Design - Publicité - Formation - Web</p>
-  </header>
-
-  <main>
-    <h2>Nos services</h2>
-    <ul style="list-style: none; padding: 0;">
-      <li>🎨 Affiches professionnelles & promotionnelles</li>
-      <li>📱 Publicité Google Ads & Réseaux</li>
-      <li>🌐 Création de site web</li>
-      <li>🎓 Formation complète en design et communication</li>
-    </ul>
-    <p>Contact WhatsApp : +226 06 72 89 29</p>
-  </main>
-
-  <footer>
-    © 2025 RDA Création - Tous droits réservés.
-  </footer>
+    <header>
+        <h1>RDA Création</h1>
+        <p>Donnez une identité forte à vos projets</p>
+    </header>
+    <main>
+        <section>
+            <h2>Nos services</h2>
+            <ul>
+                <li>Création de logos professionnels</li>
+                <li>Affiches publicitaires et événementielles</li>
+                <li>Flyers, cartes de visite, bannières digitales</li>
+                <li>Contenus pour réseaux sociaux</li>
+                <li>Formations en design graphique</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Pourquoi choisir RDA Création ?</h2>
+            <ul>
+                <li>Design sur mesure et personnalisé</li>
+                <li>Livraison rapide en haute qualité</li>
+                <li>Écoute et créativité garanties</li><li>Tarifs accessibles et flexibles</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contactez-nous</h2>
+            <p>📞 Téléphone / WhatsApp : <a href="tel:+22606728929">+226 06 72 89 29</a></p>
+            <p>📧 Email : contact@rdacreation.com</p>
+            <p>🌐 Suivez-nous sur les réseaux sociaux : Facebook, Instagram, TikTok</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 RDA Création - Tous droits réservés
+    </footer>
 </body>
-</html``` RDA création 
+</html>
+```
 
